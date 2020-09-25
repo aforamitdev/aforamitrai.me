@@ -20,4 +20,4 @@ jobs:
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSKEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-          script: pwd && whoami && cd aforamitrai && git pull git@github.com:activationeuron/aforamitrai.me.git
+          script: pwd && whoami &&  git pull git@github.com:activationeuron/aforamitrai.me.git
