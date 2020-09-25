@@ -14,13 +14,10 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: appleboy/ssh-action@master
-        env:
-          HOST: ${{ secrets.HOST }}
-          USERNAME: ${{ secrets.USERNAME }}
-          PORT: ${{ secrets.PORT }}
-          KEY: ${{ secrets.SSHKEY }}
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.SSHKEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           script: ls
-        with:
-          source: "."
-          target: "~/"
