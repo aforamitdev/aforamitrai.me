@@ -1,0 +1,21 @@
+name: Profile Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.SSKEY }}
+          passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
+          script: cd aforamitrai.me && git pull https://github.com/activationeuron/aforamitrai.me.git && npm install && npm run build && pm2 start npm --name "aforamitrai.me" -- start
