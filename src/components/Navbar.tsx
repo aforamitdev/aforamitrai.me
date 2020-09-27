@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className='flex mx-10 py-4 justify-between text-offwhite items-center'>
+    <div className='flex  py-4 justify-between text-offwhite items-center'>
       <div className='text-2xl font-normal tracking-wider'>AMIT RAI </div>
       <div className='flex items-center'>
         <div className='mx-32 space-x-6  flex'>

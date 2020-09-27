@@ -10,6 +10,7 @@ export default class CustomDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Righteous&display=swap'
             rel='stylesheet'
           ></link>
+          <title>Amit Rai</title>
         </Head>
         <body>
           <Main />
