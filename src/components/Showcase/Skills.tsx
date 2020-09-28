@@ -5,11 +5,14 @@ const Skills = () => {
     <div className='w-1/2 flex justify-center items-center '>
       <div>
         <div className='space-y-1'>
+          <div className='text-offwhite'>
+            Hello, I'm <span className='text-teal-400'> Amit Rai</span>
+          </div>
           <div className='text-3xl text-offwhite'>
             {"<"} Full Stack Developer {"/>"}
           </div>
           <div className='text-offwhite text-xl '>
-            {"<!--"} I Write Web And mobile Apps {"-->"}
+            {"<!--"} I Write Web And Mobile Apps {"-->"}
           </div>
         </div>
         <div className='my-4 space-y-1'>
