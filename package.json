@@ -2,6 +2,8 @@
   "name": "aformaitrai.me",
   "description": "aforamitrai protfolio application",
   "dependencies": {
+    "@types/gsap": "^1.20.2",
+    "gsap": "^3.5.1",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
