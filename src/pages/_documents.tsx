@@ -12,7 +12,7 @@ export default class CustomDocument extends Document {
           ></link>
           <title>Amit Rai</title>
         </Head>
-        <body>
+        <body className="w-full">
           <Main />
         </body>
         <NextScript />

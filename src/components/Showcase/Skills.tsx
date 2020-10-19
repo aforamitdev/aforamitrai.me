@@ -2,7 +2,7 @@ import SkillShowCase from "./Skills/SkillShowCase";
 import icons from "../icons";
 const Skills = () => {
   return (
-    <div className='md:w-1/2 flex justify-center items-center md:h-full  '>
+    <div className='flex justify-center items-center   '>
       <div>
         <div className='space-y-1'>
           <div className='text-offwhite'>

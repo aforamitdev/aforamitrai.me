@@ -1,6 +1,6 @@
 const Contacts = () => {
   return (
-    <div className='flex items-center justify-center content-center md:w-1/2 sm:space-y-1'>
+    <div className='flex items-center justify-center content-center '>
       <div>
         <div className='flex flex-row justify-center'>
           <img
