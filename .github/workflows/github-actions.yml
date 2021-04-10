@@ -1,0 +1,20 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploying server
+        uses: appleboy/ssh-action@master
+        with:
+          host: 165.227.88.225
+          username: ryzen
+          key: ${{ secrets.TEST }}
+          script: |
+            ls
+            ll
+
