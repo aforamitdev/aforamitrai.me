@@ -14,7 +14,7 @@ jobs:
           host: 165.227.88.225
           username: ryzen
           port: 22
-          key: ${{ secrets.TEST_MAP }}
+          key: ${{ secrets.TEST }}
           script: |
             ls
             ll
