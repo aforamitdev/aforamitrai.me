@@ -19,5 +19,6 @@ jobs:
           script: |
             ls
             ll
+            ls
             whoami
 
