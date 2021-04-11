@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: deploying server
-        uses: appleboy/ssh-action@v2
+        uses: shimataro/ssh-key-action@v2
         with:
           host: 165.227.88.225
           username: ryzen
