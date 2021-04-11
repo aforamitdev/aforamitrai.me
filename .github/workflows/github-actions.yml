@@ -15,6 +15,7 @@ jobs:
           username: ryzen
           port: 22
           key: ${{ secrets.TEST }}
+          passphrase: test
           script: |
             ls
             ll
